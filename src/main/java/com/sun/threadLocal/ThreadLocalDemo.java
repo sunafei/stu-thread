@@ -14,7 +14,7 @@ public class ThreadLocalDemo {
     }
 
     @Test
-    public void aa() {
+    public void test() {
         LocalThread localThread = new LocalThread(3);
         new Thread(localThread, "A").start();
         LocalThread localThread1 = new LocalThread(4);
@@ -24,7 +24,7 @@ public class ThreadLocalDemo {
     }
 
     class LocalThread implements Runnable {
-        private int a = 0;
+        private int a = 1;
 
         public LocalThread(int a) {
             this.a = a;

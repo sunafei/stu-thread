@@ -1,7 +1,8 @@
 package com.sun.create;
 
-public class RunnableDemo2 implements  Runnable{
-    private int count = 15;
+
+public class RunnableDemo2 implements Runnable {
+    int count = 15;
 
     public void run() {
         for (int i = 0; i < 5; i++) {

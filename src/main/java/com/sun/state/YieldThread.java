@@ -1,5 +1,8 @@
 package com.sun.state;
 
+/**
+ *
+ */
 public class YieldThread {
     public static void main(String[] args) {
         new Yield("thread1").start();
